@@ -9,7 +9,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background-color: steelblue;
+  background-color: #212121;
   color: #fff;
 }
 
@@ -47,6 +47,7 @@ input::placeholder {
 
 button {
   padding: 13px;
+  font-size: 18px;
   width: 300px;
   border: none;
   background-color: #000;
