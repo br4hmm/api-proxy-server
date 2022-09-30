@@ -6,7 +6,36 @@ This uses the [OpenWeather API](https://openweathermap.org/api) (Check out the w
 
 ## Demo
 
-_will be added later..._
+![Screenshot](./scn.png)
+
+The public key is hidden from the client in `public/main.js`
+
+```js
+// Fetch weather data from API
+const fetchWeather = async city => {
+  const url = `/api?q=${city}`;
+
+  const res = await fetch(url);
+  const data = await res.json();
+
+  if (data.cod === '404') {
+    alert('City not found');
+    return;
+  }
+
+  if (data.cod === 401) {
+    alert('Invalid API Key');
+    return;
+  }
+
+  const displayData = {
+    city: data.name,
+    temp: kelvinToCelcius(data.main.temp),
+  };
+
+  addWeatherToDOM(displayData);
+};
+```
 
 ## Usage
 
