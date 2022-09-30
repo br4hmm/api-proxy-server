@@ -6,7 +6,7 @@ This uses the [OpenWeather API](https://openweathermap.org/api) (Check out the w
 
 ## Demo
 
-![Screenshot](./scn.png)
+![Screenshot](./screenshot.png)
 
 The public key is hidden from the client in `public/main.js`
 
