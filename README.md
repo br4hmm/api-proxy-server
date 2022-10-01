@@ -53,12 +53,11 @@ In this weather app, the public API URL is **https://api.openweathermap.org/data
 
 then the **.env** values in this example will be:
 
-- PORT=5000
 - API_BASE_URL=https://api.openweathermap.org/data/2.5/weather
 - API_KEY_NAME=appid
 - API_KEY_VALUE=YOUR_API_KEY
 
-4- Run the server on `https://localhost:PORT` (Default port value is 5000)
+4- Run the server on `https://localhost:5000`
 
 ```
 $ npm run dev
