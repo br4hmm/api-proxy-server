@@ -4,7 +4,7 @@ Server used for hiding API keys, rate limiting and caching.
 
 This uses the [OpenWeather API](https://openweathermap.org/api) (Check out the weather app in the public folder) but you can easily change it to whatever public API you are using
 
-#### [App Demo](https://br4hmm-weather-app.herokuapp.com/)
+### [App Demo](https://br4hmm-weather-app.herokuapp.com/)
 
 ## About
 
